@@ -1,18 +1,36 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEFe", "GEFe\GEFe.csproj", "{B949DE01-8574-4B48-923E-775F360E2C05}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEFe", "GEFe\GEFe.csproj", "{DA997FC7-11BB-4B6B-88E6-FBD830A08FF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEFe.Tests", "GEFe.Tests\GEFe.Tests.csproj", "{A2FE5611-AF2F-4B09-BBC8-A0D1C0595E0B}"
 EndProject
 Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccLocalPath0 = .
+		SccLocalPath1 = GEFe.Tests
+		SccLocalPath2 = GEFe
+		SccNumberOfProjects = 3
+		SccProjectName1 = GEFe.Tests
+		SccProjectName2 = GEFe
+		SccProjectUniqueName1 = GEFe.Tests\\GEFe.Tests.csproj
+		SccProjectUniqueName2 = GEFe\\GEFe.csproj
+		SccTeamFoundationServer = https://maurofurigo.tfspreview.com/defaultcollection
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B949DE01-8574-4B48-923E-775F360E2C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B949DE01-8574-4B48-923E-775F360E2C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B949DE01-8574-4B48-923E-775F360E2C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B949DE01-8574-4B48-923E-775F360E2C05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2FE5611-AF2F-4B09-BBC8-A0D1C0595E0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2FE5611-AF2F-4B09-BBC8-A0D1C0595E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2FE5611-AF2F-4B09-BBC8-A0D1C0595E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2FE5611-AF2F-4B09-BBC8-A0D1C0595E0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA997FC7-11BB-4B6B-88E6-FBD830A08FF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA997FC7-11BB-4B6B-88E6-FBD830A08FF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA997FC7-11BB-4B6B-88E6-FBD830A08FF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA997FC7-11BB-4B6B-88E6-FBD830A08FF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
